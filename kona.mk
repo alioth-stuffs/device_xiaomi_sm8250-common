@@ -603,8 +603,5 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor \
     vendor.qti.hardware.display.config-V5-ndk
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
